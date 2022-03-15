@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- JQuery / Materialize CSS + JavaScript imports -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="UX308_Assign2.webmanifest">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="apple-mobile-web-app-title" content="UX 308 Resume">
+ 
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    
+    
+    <style>
+        #container {
+            padding-left: 300px;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        @media only screen and (max-width : 992px) {
+            #container {
+                padding-left: 0px;
+            }
+        }
+    </style>
+
+<body>
+    <div id="container">
+
+        <div id="menu">
+
+            <ul id="slide-out" class="side-nav fixed show-on-large-only">
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#!">First</a></li>
+                                    <li><a href="#!">Second</a></li>
+                                    <li><a href="#!">Third</a></li>
+                                    <li><a href="#!">Fourth</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i
+                    class="material-icons">menu</i></a>
+
+            <h3>Matteo Distefano UX 308 Lab 5</h3>
+
+            <p>A breif summation of education and one of my many past projects</p>
+
+        </div>
+<section id="education">
+<h2>Education</h2>
+<br />
+<h3>University of Guelph</h3>
+<body>
+    <h4>Bachelor of Computing, Software Engineering Co-op program</h4>
+    <p>2018-2020</p>
+    <p>Transfered with a cumulative 80% average</p>
+</body>
+<h3>Wilfrid Laurier University</h3>
+<h4>Bachelor of Arts, User Experience Design</h4>
+<p>2020-present</p>
+<p>remote and in person learning experience</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</section>
+<section id="experience">
+<h2>Experience</h2>
+<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://express.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://express.adobe.com/page/qy53slSg4EyGH/" target="_blank"><img src="https://express.adobe.com/page/qy53slSg4EyGH/embed.jpg?buster=1646763343005" alt="Deliverable 4 Portfolio" style="width:100%" border="0" /></a>
+</section>
+    </div>
+    <script>
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 300
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
+        window.onload = () => {
+                'use strict';
+
+                if ('serviceWorker' in navigator) {
+                    navigator.serviceWorker
+                        .register('sw.js');
+                }
+  }
+
+    </script>
+</body>
+
+</html>
